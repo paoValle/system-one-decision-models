@@ -1,0 +1,6 @@
+hardware: NVIDIA GTX 1650 4GB / Intel i7-9750H 6c12t / 16GB RAM / Windows 10.0.26200
+model: jaredpalmer/kev-0.8b (v1.0) via kev.serve on CUDA, torch 2.6.0+cu126
+server: http://127.0.0.1:8009/v1/systemone — ceiling + concurrency runs
+
+7k-token doc: 1036ms tokens={'input_tokens': 7310, 'output_tokens': 22}
+concurrency 8x8 short: 64 req in 13.1s = 4.9 req/s, median 1620ms, p90 1688ms

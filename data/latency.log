@@ -1,0 +1,9 @@
+hardware: NVIDIA GTX 1650 4GB / Intel i7-9750H 6c12t / 16GB RAM / Windows 10.0.26200
+model: jaredpalmer/kev-0.8b (v1.0) via kev.serve on CUDA, torch 2.6.0+cu126
+server: http://127.0.0.1:8009/v1/systemone — sequential single-client runs
+
+short state (3 domande): n=6 median=187ms min=186ms max=188ms
+long state ~1.5k tok (3 domande): n=4 median=798ms min=765ms max=859ms
+cache test: first=407ms second=296ms (speedup 1.4x)
+answer sample: {"only_q": {"type": "noul", "noul": 0.8672}}
+usage: {'input_tokens': 2417, 'output_tokens': 23} server latency_ms: 379.0
